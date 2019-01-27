@@ -1,23 +1,33 @@
 body {
-  background-color: #E8E8E8;
-  box-sizing: border-box;
+  background-color: #808080;
   margin: 10px;
-  flex-wrap: inherit;
 }
 main{
   width: 850px;
   margin:35px auto;
 }
-header {
-  background-color: #C0C0C0;
+nav {
+  align-content: center;
+  font-family: Raleway;
+  text-align: right;
+  padding: 10px;
+}
+.flex-container {
+  flex-wrap: wrap;
+}
+ul {
+color: #808080;
 }
 nav a {
   color: white;
-  margin: 20px;
+  margin: 3px;
   text-decoration: none;
-  align-content: center;
-  border-bottom: 2px solid #fc766a;
 }
+nav a:hover {
+  background-color: #fc766a;
+  border-bottom: 2px solid white;
+  border-radius: 10px;
+  }
 h1 {
   color: #fc766a;
   font-family: Raleway;
@@ -28,33 +38,34 @@ h1 {
   text-transform: uppercase;
 }
 h2 {
-   font-family: Raleway;
+   font-style: 'Droid', serif;
    font-size: 20px;
    font-weight: 600;
    letter-spacing: 1px;
 }
 p {
-  font-family: Raleway;
+  font-style: 'Droid', serif;
   font-size: 18px;
   line-height: 26px;
-}
-a:hover {
-  background-color: #fc766a;
 }
 .name {
  color:#F15B31;
   font-weight:600;
 }
 footer{
-  text-transform:uppercase;
   padding-left:20px;
   padding-right:20px;
-  background-color:#0D2C40;
   color:white;
-  font-size:14px;
+  font-size:10px;
   letter-spacing:.08em;
   font-weight:500;
-
+}
+footer p {
+  font-family:Raleway;
+}
+footer a {
+  text-decoration: none;
+}
 .copyright{
   font-family: Raleway;
   float: left;
@@ -70,4 +81,10 @@ content: " ";
 clear: both;
 height: 0;
 font-size: 0;
+}
+footer a:hover {
+  border-bottom: 2px solid white;
+  border-radius: 10px;
+  }
+@media screen (min-width=600px) {
 }
