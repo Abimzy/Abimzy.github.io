@@ -1,155 +1,40 @@
 * {
-  box-sizing: border-box;
-  margin: 0 10px;
   border: 2px solid black;
 }
 
-body {
-  background-color: #808080;
-}
-
-main {
-  width: 850px;
-  margin: 35px auto;
-  max-height: auto;
-}
-
-nav {
-  align-content: center;
-  font-family: Raleway;
-  background-color: #808080;
-  text-align: right;
-}
-
+/* body {}
 
 .flex-container {
-  flex-wrap: wrap;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+a {
+  margin: 4px 4px;
+  padding: 2px 4px;
+  text-align: center;
 }
 
 .about {
-  width: auto;
-  /* height: 30%; */
-}
-
-.about img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  border-radius: 3em;
-  /* border-bottom-right-radius: 5em;
-  border-top-left-radius: 5em;
-  border-bottom-left-radius: 3em;
-  border-top-right-radius: 3em; */
-  border-radius: 3em;
-}
-
-ul {
-  color: #808080;
-}
-
-nav a {
-  font-weight: 200;
-  color: white;
-  margin: 3px;
-  padding: 5px;
-  text-decoration: none;
-}
-
-nav a:hover {
-  background-color: #fc766a;
-  border-bottom: 2px solid white;
-  border-radius: 10px;
-}
-
-h1 {
-  color: #fc766a;
-  font-family: Raleway;
-  font-size: 40px;
-  font-weight: 600;
-  text-align: center;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h2 {
-  font-style: 'Droid', serif;
-  font-size: 20px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  color: white;
+  text-align: center;
 }
 
-p {
-  font-style: 'Droid', serif;
-  font-size: 18px;
-  line-height: 26px;
-}
-
-.name {
-  color: #fc766a;
-  font-weight: 600;
-}
-
-.main-slider {
-  width: 100%;
-  height: 50%;
-}
-
-.testimonial {
+.row {
   display: flex;
-  align-content: inline-block;
-  align-content: space-between;
-  background-color: #65CCB8;
-  border-radius: 1em;
-  box-shadow: 2px;
+  justify-content: center;
 }
 
-
-
-footer {
+.column {
   display: flex;
-  /* align-items: center; */
-  width: 1000px;
-  margin: 35px auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: white;
-  font-size: 5px;
-  letter-spacing: .08em;
-  font-weight: 300;
-}
+} */
 
-footer p {
-  font-family: Raleway;
+span {
+  color: teal;
 }
-
-footer a {
-  text-decoration: none;
-}
-
-.copyright {
-  font-family: Raleway;
-  float: left;
-}
-
-.message {
-  font-family: Raleway;
-  float: right;
-}
-
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  content: " ";
-  clear: both;
-  height: 0;
-  font-size: 0;
-}
-
-footer a:hover {
-  border-bottom: 2px solid white;
-  border-radius: 10px;
-}
-
-@media screen (min-width=600px) {}
