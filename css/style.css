@@ -1,9 +1,13 @@
-* {
-  border: 2px solid black;
+/* * {
+  border: 2px solid white;
+} */
+
+body {
+  background-color: #808080;
+  opacity: 50;
 }
 
-/* body {}
-
+/* 
 .flex-container {
   display: flex;
   justify-content: flex-end;
@@ -37,4 +41,82 @@ h2 {
 
 span {
   color: teal;
+}
+
+
+nav {
+  align-content: center;
+  font-family: Raleway;
+  background-color: #808080;
+  text-align: right;
+}
+
+.flex-container {
+  flex-wrap: wrap;
+}
+
+.about {
+  width: auto;
+  /* height: 30%; */
+}
+
+.about img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 3em;
+  /* border-bottom-right-radius: 5em;
+  border-top-left-radius: 5em;
+  border-bottom-left-radius: 3em;
+  border-top-right-radius: 3em; */
+  border-radius: 3em;
+}
+
+ul {
+  color: #808080;
+}
+
+nav a {
+  font-weight: 200;
+  color: white;
+  margin: 3px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #fc766a;
+  border-bottom: 2px solid white;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #fc766a;
+  font-family: Raleway;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-style: 'Droid', serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: white;
+}
+
+p {
+  font-style: 'Droid', serif;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.name {
+  color: #fc766a;
+  font-weight: 600;
 }
