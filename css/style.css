@@ -34,9 +34,6 @@ h2 {
   justify-content: center;
 }
 
-.column {
-  display: flex;
-} */
 
 span {
   color: teal;
@@ -69,7 +66,7 @@ nav {
   border-top-left-radius: 5em;
   border-bottom-left-radius: 3em;
   border-top-right-radius: 3em; */
-  border-radius: 3em;
+border-radius: 3em;
 }
 
 ul {
@@ -135,6 +132,12 @@ p {
   background-color: #26a69a;
   border-radius: 1em;
   box-shadow: 2px;
+}
+
+blog>img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
 }
 
 /* 
