@@ -155,21 +155,27 @@ p {
   color: #fff;
 }
 
+footer p {
+  font-family: Raleway;
+  color: #fff;
+}
+
 footer a {
   text-decoration: none;
 }
 
-.copyright {
+p.copyright {
+  font-size: 16px;
   font-family: Raleway;
-  float: left;
+
 }
 
-.message {
+p.message {
   font-family: Raleway;
-  float: right;
+  font-size: 16px;
 }
 
-footer a:hover {
+footer .name:hover {
   border-bottom: 2px solid white;
   border-radius: 10px;
 }
