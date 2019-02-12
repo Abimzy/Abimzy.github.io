@@ -174,8 +174,3 @@ p.message {
   font-family: Raleway;
   font-size: 16px;
 }
-
-footer .name:hover {
-  border-bottom: 2px solid white;
-  border-radius: 10px;
-}

@@ -18,16 +18,16 @@
   <header>
     <!-- Navigation bar here -->
     <nav class="flex-container">
-      <a href="#">About</a>
-      <a href="#">Portfolio</a>
-      <a href="#">Testimonial</a>
-      <a href="#">Blog</a>
-      <a href="#">Contact</a>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#testimonial">Testimonial</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
   <main>
     <!-- About me here -->
-    <section class="about row">
+    <section class="about row" id="about">
       <div class="col s12"><img src="/images/moto.jpg" alt="Picture of Eunice" /></div>
       <div class="col s12">
         <h1>Eunice Brackett</h1>
@@ -40,8 +40,8 @@
         <p>We're going to have an amazing time here! Stay tuned......</p> -->
 
     <!-- Portfolio carousel here -->
-    <section class="container">
-      <h2>Projects</h2>
+    <section class="container" id="portfolio">
+      <h2>Portfolio</h2>
       <ul class="carousel carousel-slider">
         <li class="carousel-item">
           <a href="#!"><img src="https://lorempixel.com/800/400/food/2" class="responsive-img">
@@ -72,28 +72,30 @@
       teal color: #26a69a -->
 
     <!-- Testimonials here- Resource for chat bubble: https://codepen.io/Founts/pen/gmhcl-->
-    <section class="testimonial row">
+    <section class="row" id="testimonial">
       <div class="col s12">
         <h2>Testimonial</h2>
-      </div>
-      <div class="col s12 m4">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum autem, fugiat, explicabo perspiciatis
-          numquam repellendus sit reiciendis consequatur non nisi dolore temporibus! Placeat aspernatur dicta at autem
-          doloribus nihil illum!</p>
-      </div>
-      <div class="col s12 m4">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum autem, fugiat, explicabo perspiciatis
-          numquam repellendus sit reiciendis consequatur non nisi dolore temporibus! Placeat aspernatur dicta at autem
-          doloribus nihil illum!</p>
-      </div>
-      <div class="col s12 m4">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum autem, fugiat, explicabo perspiciatis
-          numquam repellendus sit reiciendis consequatur non nisi dolore temporibus! Placeat aspernatur dicta at autem
-          doloribus nihil illum!</p>
-      </div>
+        <div class="col s12">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum autem, fugiat, explicabo perspiciatis
+            numquam repellendus sit reiciendis consequatur non nisi dolore temporibus! Placeat aspernatur dicta at
+            autem
+            doloribus nihil illum!</p>
+        </div>
+        <div class="col s12">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum autem, fugiat, explicabo perspiciatis
+            numquam repellendus sit reiciendis consequatur non nisi dolore temporibus! Placeat aspernatur dicta at
+            autem
+            doloribus nihil illum!</p>
+        </div>
+        <div class="col s12">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum autem, fugiat, explicabo perspiciatis
+            numquam repellendus sit reiciendis consequatur non nisi dolore temporibus! Placeat aspernatur dicta at
+            autem
+            doloribus nihil illum!</p>
+        </div>
     </section>
 
-    <section class="blog row">
+    <section class="blog row" id="blog">
       <div class="col s12 m12 l12">
         <h2>Blog</h2>
       </div>
@@ -138,62 +140,61 @@
     <!-- Contact form here  with SM icons-->
 
 
-
-
-
-
-    <div class="row">
+    <div class="row" id="contact">
       <form class="col s12">
-        <div class="row">
-          <div class="input-field col s6">
-            <i class="material-icons prefix">account_circle</i>
-            <input id="icon_prefix" type="text" data-length="20" class="validate">
-            <label for="icon_prefix">First Name</label>
-          </div>
-          <div class="input-field col s6">
-            <input id="last_name" type="text" data-length="20" class="validate">
-            <label for="last_name">Last Name</label>
-          </div>
-        </div>
-        <div class="row">
-          <div class="input-field col s12">
-            <input id="password" type="password" data-length="20" class="validate">
-            <label for="password">Password</label>
-          </div>
-        </div>
-        <div class="row">
-          <div class="input-field col s12">
-            <input id="email" type="email" class="validate">
-            <label for="email">Email</label>
-          </div>
-        </div>
+        <h2>Get in touch?</h2>
         <div class="row">
           <form class="col s12">
             <div class="row">
-              <div class="input-field col s12">
-                <textarea id="textarea1" class="materialize-textarea" data-length="200"></textarea>
-                <label for="textarea1">Textarea</label>
+              <div class="input-field col s6">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="icon_prefix" type="text" data-length="20" class="validate">
+                <label for="icon_prefix">First Name</label>
               </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" data-length="20" class="validate">
+                <label for="last_name">Last Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="password" type="password" data-length="20" class="validate">
+                <label for="password">Password</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <form class="col s12">
+                <div class="row">
+                  <div class="input-field col s12">
+                    <textarea id="textarea1" class="materialize-textarea" data-length="200"></textarea>
+                    <label for="textarea1">Textarea</label>
+                  </div>
+                </div>
+              </form>
             </div>
           </form>
         </div>
-      </form>
-    </div>
-    <!-- Footer here -->
-    </footer>
-    <div class="row">
-      <div class="col s6">
-        <p class="copyright">@ 2019 Eunice Brackett, All Rights Reserved</p>
-      </div>
-      <div class="col s6">
-        <p class="message">
-          Built with &hearts; by
-          <a class="name" href="https://twitter.com/EuniceBrackett">Eunice Brackett</a>
-        </p>
-      </div>
+        <!-- Footer here -->
+        </footer>
+        <div class="row">
+          <div class="col s6">
+            <p class="copyright">@ 2019 Eunice Brackett, All Rights Reserved</p>
+          </div>
+          <div class="col s6">
+            <p class="message">
+              Built with &hearts; by
+              <a class="name" href="https://twitter.com/EuniceBrackett">Eunice Brackett</a>
+            </p>
+          </div>
 
 
-      <!-- 
+          <!-- 
         <div class="col s1">3</div>
         <div class="col s1">4</div>
         <div class="col s1">5</div>
@@ -204,22 +205,22 @@
         <div class="col s1">10</div>
         <div class="col s1">11</div>
         <div class="col s1">12</div>
-      </div>  -->
-      <!-- Don't know why text editor is requesting a semi-colon here-figured it out...closing script carrot was missing-->
+     -->
+          <!-- Don't know why text editor is requesting a semi-colon here-figured it out...closing script carrot was missing-->
 
-      <script type="text/javascript" src="js/materialize.js">
-      </script>
-      <script type="text/javascript" src="js/jquery-2.1.3.min">
-      </script>
-      <script type="text/javascript" src="js/main.js">
-      </script>
-      <script>
-        const projects = document.querySelector('.carousel-slider');
-        M.Carousel.init(projects, {
-          fullWidth: true,
-          indicators: true
-        });
-      </script>
+          <script type="text/javascript" src="js/materialize.js">
+          </script>
+          <script type="text/javascript" src="js/jquery-2.1.3.min">
+          </script>
+          <script type="text/javascript" src="js/main.js">
+          </script>
+          <script>
+            const projects = document.querySelector('.carousel-slider');
+            M.Carousel.init(projects, {
+              fullWidth: true,
+              indicators: true
+            });
+          </script>
 </body>
 
 </html>
