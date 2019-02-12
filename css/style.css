@@ -1,37 +1,35 @@
-/* * {
-  border: 2px solid white;
-} */
-
 body {
   background-color: #808080;
 }
 
-/* 
-.flex-container {
+nav.row {
+  background-color: #9e9e9e;
+}
+
+nav {
+  align-content: center;
+  font-family: Raleway;
+  background-color: #9e9e9e;
+  text-align: right;
+}
+
+blog.img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+/* .flex-container {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-}
+} */
 
+/* 
 a {
   margin: 4px 4px;
   padding: 2px 4px;
   text-align: center;
-}
-
-.about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-h2 {
-  text-align: center;
-}
-
-.row {
-  display: flex;
-  justify-content: center;
 }
 
 
@@ -40,12 +38,7 @@ span {
 }
 
 
-nav {
-  align-content: center;
-  font-family: Raleway;
-  background-color: #808080;
-  text-align: right;
-}
+
 
 .flex-container {
   flex-wrap: wrap;
@@ -55,18 +48,15 @@ nav {
   width: 100%;
 
 }
-
-.about img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  border-radius: 3em;
   /* border-bottom-right-radius: 5em;
   border-top-left-radius: 5em;
   border-bottom-left-radius: 3em;
   border-top-right-radius: 3em; */
-border-radius: 3em;
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 ul {
@@ -127,17 +117,10 @@ p {
 .testimonial {
   display: flex;
   flex-direction: row;
-
   align-content: space-between;
   background-color: #26a69a;
   border-radius: 1em;
   box-shadow: 2px;
-}
-
-blog>img {
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
 }
 
 /* 
