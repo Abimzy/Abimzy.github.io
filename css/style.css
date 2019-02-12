@@ -55,8 +55,8 @@ nav {
 }
 
 .about {
-  width: auto;
-  /* height: 30%; */
+  width: 100%;
+
 }
 
 .about img {
@@ -106,6 +106,7 @@ h2 {
   font-weight: 600;
   letter-spacing: 1px;
   color: white;
+  text-align: center;
 }
 
 p {
@@ -149,8 +150,9 @@ footer {
   font-weight: 300;
 } */
 
-footer p {
+p {
   font-family: Raleway;
+  color: #fff;
 }
 
 footer a {
@@ -171,5 +173,3 @@ footer a:hover {
   border-bottom: 2px solid white;
   border-radius: 10px;
 }
-
-@media screen (min-width=600px) {}
