@@ -1,22 +1,26 @@
 body {
   background-color: #808080;
+    font-family: Raleway;
+  font-family: 'Lora', serif;
 }
-
+#navbar {
+  overflow: hidden;
+}
 nav.row {
   background-color: #9e9e9e;
 }
 
 nav {
   align-content: center;
-  font-family: Raleway;
+
   background-color: #9e9e9e;
   text-align: right;
 }
 
 blog.img {
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50px;
 }
 
 /* .flex-container {
@@ -25,18 +29,12 @@ blog.img {
   align-items: center;
 } */
 
-/* 
-a {
-  margin: 4px 4px;
-  padding: 2px 4px;
-  text-align: center;
-}
-
 
 span {
   color: teal;
 }
 
+ /* teal color: #26a69a */
 
 
 
@@ -48,10 +46,7 @@ span {
   width: 100%;
 
 }
-  /* border-bottom-right-radius: 5em;
-  border-top-left-radius: 5em;
-  border-bottom-left-radius: 3em;
-  border-top-right-radius: 3em; */
+ 
 
 .about {
   display: flex;
@@ -123,19 +118,6 @@ p {
   box-shadow: 2px;
 }
 
-/* 
-footer {
-
-  width: 1000px;
-  margin: 35px auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: white;
-  font-size: 5px;
-  letter-spacing: .08em;
-  font-weight: 300;
-} */
-
 p {
   font-family: Raleway;
   color: #fff;
@@ -159,4 +141,11 @@ p.copyright {
 p.message {
   font-family: Raleway;
   font-size: 16px;
+}
+/* 
+Sticky code for scrolling function in js-Media queries*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
