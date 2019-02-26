@@ -1,11 +1,13 @@
 body {
   background-color: #808080;
-    font-family: Raleway;
+  font-family: Raleway;
   font-family: 'Lora', serif;
 }
+
 #navbar {
   overflow: hidden;
 }
+
 nav.row {
   background-color: #9e9e9e;
 }
@@ -17,10 +19,17 @@ nav {
   text-align: right;
 }
 
+#profile-pic {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
+
+
 blog.img {
   width: 150px;
   height: 150px;
-  border-radius: 50px;
+  border-radius: 40px;
 }
 
 /* .flex-container {
@@ -34,7 +43,7 @@ span {
   color: teal;
 }
 
- /* teal color: #26a69a */
+/* teal color: #26a69a */
 
 
 
@@ -42,14 +51,10 @@ span {
   flex-wrap: wrap;
 }
 
-.about {
-  width: 100%;
-
-}
- 
 
 .about {
   display: flex;
+  width: 100%;
   flex-direction: column;
   align-items: center;
 }
@@ -142,6 +147,7 @@ p.message {
   font-family: Raleway;
   font-size: 16px;
 }
+
 /* 
 Sticky code for scrolling function in js-Media queries*/
 .sticky {
